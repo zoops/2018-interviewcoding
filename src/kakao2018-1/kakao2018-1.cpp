@@ -37,7 +37,6 @@ vector<string> solution(vector<string> record) {
 			if (c == ' ') idx++;
 			else cmd[idx] += c;
 		}
-
 		if (cmd[2].empty() == false) nickMap[cmd[1]] = cmd[2];
 		if (cmd[0].compare("Change") != 0) logs.push_back(CLog(cmd[0], cmd[1]));
 	}
