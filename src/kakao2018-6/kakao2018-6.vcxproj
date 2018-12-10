@@ -151,11 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\%40lecture\2018-코딩면접특강\kakao2018-6\pch.h" />
+    <ClInclude Include=".\pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\%40lecture\2018-코딩면접특강\kakao2018-6\kakao2018-6.cpp" />
-    <ClCompile Include="..\..\..\%40lecture\2018-코딩면접특강\kakao2018-6\pch.cpp">
+    <ClCompile Include=".\kakao2018-6.cpp" />
+    <ClCompile Include=".\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
